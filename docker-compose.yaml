@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  demo:
+    image: dsdebayan/demo:0.0.1-SNAPSHOT
+    ports:
+      - "8000:8000"
+    networks:
+      - demo-network
+
+networks:
+  demo-network:      
+      
+
+      

@@ -8,3 +8,9 @@ git push -u origin main
 http://localhost:8000/swagger-ui/index.html
 
 spring-boot:build-image -DskipTests
+
+docker-compose up
+docker container ps
+docker image ps
+docker container kill pid
+docker container prune
